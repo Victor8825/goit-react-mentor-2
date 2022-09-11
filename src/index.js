@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="react-homework-template">
+    <BrowserRouter basename="/goit-react-mentor-2/">
       <App />
     </BrowserRouter>
   </React.StrictMode>

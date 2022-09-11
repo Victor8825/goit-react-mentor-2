@@ -2,7 +2,6 @@ import { useFetchEvent } from 'hooks/useFetchEvent';
 import { Link, useLocation } from 'react-router-dom';
 
 export const EventItemView = () => {
-  // const [error, setError] = useState(null);
   const location = useLocation();
   const event = useFetchEvent();
 
